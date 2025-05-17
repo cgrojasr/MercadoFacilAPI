@@ -1,0 +1,6 @@
+@CR.UPC.MercadoFacil.API_HostAddress = http://localhost:5171
+
+GET {{CR.UPC.MercadoFacil.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

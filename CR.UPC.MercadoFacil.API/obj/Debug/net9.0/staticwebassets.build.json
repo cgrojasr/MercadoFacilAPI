@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "AMDv8C3fFQ9rNpH28+FK2Qx37NhRbibAcHLqEua/NFw=",
+  "Source": "CR.UPC.MercadoFacil.API",
+  "BasePath": "_content/CR.UPC.MercadoFacil.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
