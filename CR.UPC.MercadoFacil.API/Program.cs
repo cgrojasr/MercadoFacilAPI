@@ -9,6 +9,8 @@ builder.Services.AddControllers();
 // Register your custom services here
 builder.Services.AddScoped<ProductoData>();
 builder.Services.AddScoped<ProductoBusiness>();
+builder.Services.AddScoped<ProductoCategoriaData>();
+builder.Services.AddScoped<ProductoCategoriaBusiness>();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 //builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddOpenApi();
@@ -41,7 +43,18 @@ if (app.Environment.IsDevelopment())
 //     return forecast;
 // })
 // .WithName("GetWeatherForecast");
-// app.UseAuthorization();
+//CORS para que la web pueda consumir los servicios
+app.UseCors(builder =>
+{
+    builder.AllowAnyOrigin()
+    .AllowAnyMethod()
+    .AllowAnyHeader();
+}); 
+
+//CORS
+app.UseAuthentication();
+app.UseAuthorization();
+
 app.MapControllers();
 app.Run();
 

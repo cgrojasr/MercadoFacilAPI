@@ -79,3 +79,4 @@ d:\Development\Visual Studio\MercadoFacilAPI\CR.UPC.MercadoFacil.API\bin\Debug\n
 d:\Development\Visual Studio\MercadoFacilAPI\CR.UPC.MercadoFacil.API\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 d:\Development\Visual Studio\MercadoFacilAPI\CR.UPC.MercadoFacil.API\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.dll
 d:\Development\Visual Studio\MercadoFacilAPI\CR.UPC.MercadoFacil.API\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Security.Cryptography.Pkcs.dll
+D:\Development\Visual Studio\MercadoFacilAPI\CR.UPC.MercadoFacil.API\obj\Debug\net9.0\CR.UPC.MercadoFacil.API.sourcelink.json
