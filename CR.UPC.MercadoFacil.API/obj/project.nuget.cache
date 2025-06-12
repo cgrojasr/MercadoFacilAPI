@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8E+mYTh8wug=",
+  "dgSpecHash": "0KDi4hzjhbo=",
   "success": true,
-  "projectFilePath": "D:\\Development\\Visual Studio\\MercadoFacilAPI\\CR.UPC.MercadoFacil.API\\CR.UPC.MercadoFacil.API.csproj",
+  "projectFilePath": "d:\\Development\\Visual Studio\\MercadoFacilAPI\\CR.UPC.MercadoFacil.API\\CR.UPC.MercadoFacil.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cgroj\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\cgroj\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

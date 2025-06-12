@@ -15,12 +15,12 @@ namespace CR.UPC.MercadoFacil.API.Controllers
             _productoBusiness = productoBusiness;
         }
 
-        [HttpGet("GetProductosCatalogo")]
-        public async Task<IActionResult> GetProductosCatalogo()
+        [HttpGet("GetProductosCatalogo/{idCategoria}/{nombre?}")]
+        public async Task<IActionResult> GetProductosCatalogo(int idCategoria = 0, string? nombre = null)
         {
             try
             {
-                var productos = await _productoBusiness.GetProductosCatalogo();
+                var productos = await _productoBusiness.GetProductosCatalogo(idCategoria, nombre);
                 return Ok(productos);
             }
             catch (Exception ex)
